@@ -74,7 +74,7 @@ const observe = new IntersectionObserver(loadImage, {
 observe.observe(image1);
 observe.observe(imagen2);
 
-const iconos = document.querySelectorAll(".bi");
+const iconos = document.querySelectorAll(".bi-heart");
 
 iconos.forEach(icono => {
   icono.addEventListener("click", function() {
